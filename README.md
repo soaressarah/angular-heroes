@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # AngularHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
@@ -30,3 +31,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # angular-heroes
 >>>>>>> 181bb0dcc5b2ce8cfcb4480b7ce39ee6dec04cb4
+=======
+# angular-heroes
+>>>>>>> 23804dbdb7c656a3129ec71175ef3faaef9a32aa
