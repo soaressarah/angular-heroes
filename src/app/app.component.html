@@ -1,17 +1,19 @@
-!--The whole content below can be removed with the new code.-->
+<!--The whole content below can be removed with the new code.-->
 <div style="text-align:center">
   <h1>
     Welcome to {{title}}!!
   </h1>
 </div>
-<div *ngIf="selectedHero">
+
+ <!-- <div *ngIf="selectedHero">
   <h2>Hero {{selectedHero.name}} details</h2>
   <div><label>id: </label>{{selectedHero.id}}</div>
   <div>
     <label>name: </label>
     <input [(ngModel)]="selectedHero.name" placeholder="name">
   </div>
-</div>
+</div> -->
+
 <div *ngIf="heroes">
   <h2>Meus heróis</h2>
   <ul class="heroes">
@@ -21,4 +23,5 @@
       <span class="badge">{{h.id}}</span> {{h.name}}
     </li>
   </ul>
+  <hero-detail [hero]="selectedHero"></hero-detail>
 </div>
